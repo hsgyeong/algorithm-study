@@ -8,12 +8,12 @@ public class Main {
 		
 		int n = sc.nextInt();
 		int m = sc.nextInt();
-		int answer = 0;
+		long answer = 0;
 		
 		String Nnum = sc.next();
 		String Mnum = sc.next();
 	
-		answer = Integer.parseInt(Nnum)*Integer.parseInt(Mnum);
+		answer = Long.parseLong(Nnum)*Long.parseLong(Mnum);
 	
 		System.out.println(answer);
 	}
